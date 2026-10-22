@@ -1,0 +1,35 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "overused-font",
+        "value": "inter",
+        "createdAt": "2026-10-16T14:04:51.007Z",
+        "reason": "Design brief from the project coordinator specifies Inter (install @fontsource-variable/inter) for the TJ Digital homepage"
+      },
+      {
+        "rule": "marquee",
+        "value": "*",
+        "files": [
+          "src/pages/index.astro"
+        ],
+        "createdAt": "2026-10-16T14:40:21.712Z",
+        "reason": "Design brief from the project coordinator explicitly asks for an infinite marquee under the hero repeating the trust items; it duplicates content already shown in the hero, is aria-hidden, pauses on hover, and is disabled under prefers-reduced-motion"
+      },
+      {
+        "rule": "bounce-easing",
+        "value": "cubic-bezier(.3, 1.4, .6, 1)",
+        "createdAt": "2026-10-22T00:40:38.998Z",
+        "reason": "Requested character animation: user asked for Tavi to run and jump onto the H1; the overshoot is the landing bounce"
+      },
+      {
+        "rule": "bounce-easing",
+        "value": "cubic-bezier(.3, 1.3, .6, 1)",
+        "createdAt": "2026-10-22T00:40:39.283Z",
+        "reason": "Requested character animation: Tavi pops out from behind the photo per the user's peek-and-jump request"
+      }
+    ]
+  }
+}

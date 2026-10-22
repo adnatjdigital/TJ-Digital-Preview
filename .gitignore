@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.astro/
+dist-*/
+build/
+preview*/
+_backup-*/
+screenshots/
+*.log
+public/videos/tj-footage*
+public/images/Excited-TJ*
+public/images/TJ-and-Yoshi*
